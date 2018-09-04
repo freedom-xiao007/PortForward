@@ -92,9 +92,6 @@ python3 Server.py 250
 
 &ensp;&ensp;&ensp;&ensp;这样机器C就可以机器B的250端口访问调用机器A的Web接口了
 
-## 与SSH端口转发的比较
-&ensp;&ensp;&ensp;&ensp;SSH中我只使用过远程调试，也就是反向的SSH,这种比较成熟和稳定，autossh使用其起来也很方便。SSH的缺点是无法就行图形化的传输，因为一般服务器上面都是不装图形化的东西，这样使用反向的SSH就没有办法了。但使用TCP端口转发可以实现SSH的图形化传输。
-
 ## 参考链接
 &ensp;&ensp;&ensp;&ensp;下面有一些比较好的参考资料，可以去看看，可以帮助更好的理解：
 - [SSH协议交互过程:https://blog.csdn.net/kluleia/article/details/8179232](https://blog.csdn.net/kluleia/article/details/8179232)
